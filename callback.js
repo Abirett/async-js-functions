@@ -10,10 +10,11 @@ const posts = [
         output += `<li>${post.title}</li>`;
       });
       document.body.innerHTML = output;
+      // console.log(output);
     }, 1000);
   }
   
-  // getPosts();
+  getPosts();
   
   function createPost(post, callback) {
     setTimeout(() => {
